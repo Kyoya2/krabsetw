@@ -99,7 +99,7 @@
       <AssemblyDebug>true</AssemblyDebug>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist $(ProjectDir)..\35MSSharedLib1024.snk sn.exe -k $(ProjectDir)..\35MSSharedLib1024.snk</Command>
+      <Command>if not exist "$(ProjectDir)..\35MSSharedLib1024.snk" sn.exe -k "$(ProjectDir)..\35MSSharedLib1024.snk"</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Verify snk file is generated</Message>
@@ -123,7 +123,7 @@
       <AssemblyDebug>true</AssemblyDebug>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist $(ProjectDir)..\35MSSharedLib1024.snk sn.exe -k $(ProjectDir)..\35MSSharedLib1024.snk</Command>
+      <Command>if not exist "$(ProjectDir)..\35MSSharedLib1024.snk" sn.exe -k "$(ProjectDir)..\35MSSharedLib1024.snk"</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Verify snk file is generated</Message>
@@ -154,7 +154,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist $(ProjectDir)..\35MSSharedLib1024.snk sn.exe -k $(ProjectDir)..\35MSSharedLib1024.snk</Command>
+      <Command>if not exist "$(ProjectDir)..\35MSSharedLib1024.snk" sn.exe -k "$(ProjectDir)..\35MSSharedLib1024.snk"</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Verify snk file is generated</Message>
@@ -175,7 +175,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>if not exist $(ProjectDir)..\35MSSharedLib1024.snk sn.exe -k $(ProjectDir)..\35MSSharedLib1024.snk</Command>
+      <Command>if not exist "$(ProjectDir)..\35MSSharedLib1024.snk" sn.exe -k "$(ProjectDir)..\35MSSharedLib1024.snk"</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Verify snk file is generated</Message>
