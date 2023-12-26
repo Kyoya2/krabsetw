@@ -237,6 +237,14 @@ namespace krabs { namespace kernel {
          krabs::guids::ob_trace,
          PERF_OB_HANDLE);
 
+     /**
+       * <summary>A provider that enables timer events.</summary>
+       */
+     CREATE_CONVENIENCE_KERNEL_PROVIDER_MASK(
+         timer_provider,
+         krabs::guids::timer,
+         PERF_TIMER);
+
 #undef CREATE_CONVENIENCE_KERNEL_PROVIDER
 #undef CREATE_CONVENIENCE_KERNEL_PROVIDER_MASK
 
